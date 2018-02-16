@@ -1,0 +1,28 @@
+  1   git init
+  2   git add .
+  3   git status
+  4   git commit -m "Added the three initial files."
+  5   git rm "Git - Branches in a Nutshell.txt"
+  6   git status
+  7   git commit -m "deleted the file 'Git - Branches in a Nutshell.txt'."
+  8   git status
+  9   git log
+  10  git reset --hard 6c58397
+  11  git status
+  12  git remote add remoteSprint0 https://github.com/mohamedynawar/IndividualPartSprint0
+  13  git push remoteSprint0 master
+  14  git branch ReadMe
+  15  git branch
+  16  git checkout ReadMe
+  17  git branch
+  18  git status
+  19  git add .
+  20  git commit -m "added the 'README.md' file to the 'ReadMe' branch."
+  21  git status
+  22  git branch
+  23  git checkout master
+  24  git merge ReadMe
+  25  git status
+  26  git add .
+  27  git commit -m "added the 'AllMyCommand.txt' file."
+  28  git push remoteSprint0 master
