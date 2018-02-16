@@ -24,5 +24,5 @@
   24  git merge ReadMe
   25  git status
   26  git add .
-  27  git commit -m "added the 'AllMyCommand.txt' file."
+  27  git commit -m "added the 'AllMyCommands.txt' file."
   28  git push remoteSprint0 master
